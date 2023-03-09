@@ -24,9 +24,10 @@ export default function CarInfo({ car }: ICarInfoProps) {
   return (
     <>
       <View
+        marginBottom={2}
         direction={"column"}
-        extend={{ whiteSpace: "break-spaces" }}
         alignItems="flex-start"
+        extend={{ whiteSpace: "break-spaces" }}
       >
         <Text
           extend={{ color: "rgba(0, 0, 0, 0.56)" }}
