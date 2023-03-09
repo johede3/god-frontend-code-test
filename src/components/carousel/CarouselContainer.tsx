@@ -12,7 +12,7 @@ interface ICarouselProps {
 export const CarouselContainer = ({ children }: ICarouselProps) => {
   const [activeIndex, setActiveIndex] = useState(0);
   const [width, setWidth] = useState<number>(window.innerWidth);
-  const isMobile = width <= 768;
+  const isMobile = width <= 1023;
 
   const updateIndex = (newIndex: number) => {
     if (newIndex < 0) {

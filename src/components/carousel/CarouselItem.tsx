@@ -15,10 +15,10 @@ export const CarouselItem = ({ children }: ICarouselItemProps) => {
       padding={1}
       className={styles.carouselItem}
       extend={{
-        untilM: {
+        untilL: {
           width: "75%",
         },
-        fromM: {
+        fromL: {
           width: "25%",
         },
       }}
