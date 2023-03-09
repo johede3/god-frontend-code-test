@@ -79,7 +79,7 @@ export const CarouselContainer = ({ children }: ICarouselProps) => {
           direction={"row"}
           width="100%"
           justifyContent="flex-end"
-          paddingTop={4}
+          padding={1}
         >
           <IconButton
             onClick={() => updateIndex(activeIndex - 1)}
