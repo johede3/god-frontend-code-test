@@ -48,7 +48,7 @@ export default function CarInfo({ car }: ICarInfoProps) {
           </Text>
         </Text>
       </View>
-      <img alt="aa" src={car.imageUrl} />
+      <img alt={car.modelName} src={car.imageUrl} />
       <View spacing={4} justifyContent="center" direction="row">
         <Link arrow="right" href={`/learn/${car.id}`}>
           Learn
